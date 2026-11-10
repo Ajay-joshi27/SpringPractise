@@ -72,7 +72,7 @@ public class Jdbc  {
 		}
 		public void deleteOperation() {
 			String delete = "DELETE FROM STUDENTS WHERE ID = ?";
-			 final int ID =2;
+			 final int ID =3;
 			int result=jdbctemp.update(delete,ID);
 			 if(result>0)
 			    {
